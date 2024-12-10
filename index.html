@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castaway</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- шапка сайта -->
+    <header>
+        <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+        <nav>
+            <ul>
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="">Episodes</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- контент -->
+    <main>
+        <section class="title">
+            <img src="img/title_img.png" class="title_img" alt="мужик какой то">
+            <div class="title_description">
+                <h1>
+                    Take your podcast to the <span class="underline">next</span> <span class="#118DA8">level</span>.
+                </h1>
+                <em>listen on</em>
+                <div class="title_icons">
+                    <img src="img/green.png" alt="">
+                    <img src="img/red.png" alt="">
+                    <img src="img/orange.png" alt="">
+                    <img src="img/purple.png" alt="">
+                    <img src="img/white.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- эпизоды -->
+        <section class="latest_episodes">
+            <!-- заголовок + кнопка -->
+            <div class="latest_episodes__title">
+                <h2>Latest episodes</h2>
+                <button>View all episodes</button>
+            </div>
+            <!-- все эпизоды -->
+            <div class="latest_episodes__items">
+                <!-- первый эпизод -->
+                <div class="latest_episodes__item">
+                    <img class="latest_episodes_poster" src="img/episode1.png" alt="">
+                    <div class="latest_episodes__info">
+                        <p class="tag">Gear</p>
+                        <p class="number">Episode 3</p>
+                        <h3 class="episode_title">Should you get outboard audio gear?</h3>
+                        <p class="episode_description">Is hardware really worth it when it comes to podcasting? The
+                            answer is...it depends. Here’s our reasons on why you might want to consider picking
+                            something up.</p>
+                        <button class="episode_button">View Episode Details</button>
+                    </div>
+                </div>
+                <!-- второй эпизод -->
+                <div class="latest_episodes__item">
+                    <img class="latest_episodes_poster" src="img/episode2.png" alt="">
+                    <div class="latest_episodes__info">
+                        <p class="tag">Tips & Tricks</p>
+                        <p class="number">Episode 2</p>
+                        <h3 class="episode_title">Mic tricks to take you to the next level</h3>
+                        <p class="episode_description">Stop rolling with those default settings on your mic. These small
+                            tweaks will take you from sounding good to great.</p>
+                        <button class="episode_button">View Episode Details</button>
+                    </div>
+                </div>
+                <!-- третий эпизод -->
+                <div class="latest_episodes__item">
+                    <img class="latest_episodes_poster" src="img/episode3.png" alt="">
+                    <div class="latest_episodes__info">
+                        <p class="tag">Gear</p>
+                        <p class="number">Episode</p>
+                        <h3 class="episode_title">The best microphone under $200</h3>
+                        <p class="episode_description">With so many microphones on the market, how are you supposed to
+                            know what’s the best? Take a look at our top picks.</p>
+                        <button class="episode_button">View Episode Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="person"> </section>
+        <!-- подписаться -->
+        <section class="subscribe">
+            <div class="suub">
+                <div class="subscribe_title">
+                    <p>Email Newsletter</p>
+                    <h2>Subscribe for updates</h2>
+                </div>
+                <div class="subscribe_form">
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <input type="button" value="submit">
+                    </form>
+                </div>
+            </div>
+            <img src="img/lines.png" alt="">
+        </section>
+        <section class="feedback"> </section>
+    </main>
+
+    <!-- футер -->
+    <footer>
+        <div class="footet_logo">
+            <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+            <br> <!-- переход на след. строку -->
+            <img src="img/instagram.png" alt="">
+            <img src="img/twitter.png" alt="">
+            <img src="img/faceboock.png" alt="">
+        </div>
+        <div class="footer_links_menu">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Episodes</a>
+            <a href="">Contact</a>
+        </div>
+        <div class="footer_links_info">
+            <a href="">Style Guide</a>
+            <a href="">Instructions</a>
+            <a href="">Changelog</a>
+            <a href="">Credit</a>           
+            <a href="">Powered by Webflow</a>
+            <a href="">Licenses</a>
+        </div>
+        <div class="title_icons">
+            <img src="img/green.png" alt="">
+            <img src="img/red.png" alt="">
+            <img src="img/orange.png" alt="">
+            <img src="img/purple.png" alt="">
+            <img src="img/white.png" alt="">
+        </div>
+    </footer>
+</body>
+
+</html>
